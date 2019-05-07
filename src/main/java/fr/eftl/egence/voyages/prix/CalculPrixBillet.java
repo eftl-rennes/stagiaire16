@@ -30,6 +30,10 @@ public class CalculPrixBillet {
 			return varPrixUnitaire * 2;
 		case "business":
 			return varPrixUnitaire * 2 + 300;
+		case "deuxieme":
+		 	return varPrixUnitaire * 2 + 200;
+		case "surclasse":
+	 	return varPrixUnitaire * 2 + 500;
 		default:
 			return varPrixUnitaire;
 			
